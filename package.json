@@ -1,10 +1,12 @@
 {
   "type": "module",
   "scripts": {
-    "runbot":"node src/main.js"
+    "runbot": "vite-node src/main.js"
   },
   "dependencies": {
     "discord.js": "^14.7.1",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "vite-node": "^0.29.1",
+    "vue": "^3.2.47"
   }
 }
